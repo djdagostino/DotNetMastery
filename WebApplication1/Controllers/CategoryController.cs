@@ -24,6 +24,7 @@ namespace WebApplication1.Controllers
         [HttpPost] //Post the Added Category to DB
         public IActionResult Create(Category obj)
         {
+
             if (ModelState.IsValid) //Go to category.cs and examine the validation
             {
                 _db.Categories.Add(obj); //Add the object 
