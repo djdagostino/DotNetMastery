@@ -28,8 +28,9 @@ namespace WebApplication1.Controllers
             {
                 _db.Categories.Add(obj); //Add the object 
                 _db.SaveChanges(); //Save changes to the DB
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+            return View();
         }
     }
 }
