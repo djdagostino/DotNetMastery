@@ -36,7 +36,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Edit(int? id)
         {
-            if (id==null || id ==0)
+            if (id==null || id ==0) //if the id is null or the id is 0, return not found message 
             {
                 return NotFound();
             }
@@ -44,7 +44,7 @@ namespace WebApplication1.Controllers
             //Category? categoryFromDb1 = _db.Categories.FirstOrDefault(u=>u.Id==id); //LINQ method "FoD" to find the first category that matches the given Id. 
             //Category? categoryFromDb2 = _db.Categories.Where(u=>u.Id==id).FirstOrDefault(); 
 
-            if (categoryFromDb == null)
+            if (categoryFromDb == null) 
             {
                 return NotFound();
             }
@@ -76,6 +76,7 @@ namespace WebApplication1.Controllers
             }
             return View(categoryFromDb);
         }
+
         [HttpPost, ActionName("Delete")] 
         public IActionResult DeletePOST(int? id)
         {
