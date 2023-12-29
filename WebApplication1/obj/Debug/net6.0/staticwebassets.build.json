@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LkGYSwltw+ELvIffnuEaJduDNUTi5tOPTGbDIJJOksM=",
+  "Hash": "LPbFUGxdfHAqgZ4XvuMcLuHdHGYzQWmv/xlMKVsZcC8=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ddagostino\\source\\repos\\testRepos\\WebApplication1\\WebApplication1\\wwwroot\\images\\David-Headshot.jpg",
+      "SourceId": "WebApplication1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ddagostino\\source\\repos\\testRepos\\WebApplication1\\WebApplication1\\wwwroot\\",
+      "BasePath": "_content/WebApplication1",
+      "RelativePath": "images/David-Headshot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\David-Headshot.jpg"
     },
     {
       "Identity": "C:\\Users\\ddagostino\\source\\repos\\testRepos\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
